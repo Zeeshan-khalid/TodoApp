@@ -17,18 +17,6 @@ h1 {
   top: 50%;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-    /* Start spinning from 0 degrees */
-  }
-
-  to {
-    transform: rotate(360deg);
-    /* End spinning at 360 degrees (full circle) */
-  }
-}
-
 .error {
   color: red;
   font-weight: 400;
@@ -190,6 +178,17 @@ h1 {
   width: fit-content;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    /* Start spinning from 0 degrees */
+  }
+
+  to {
+    transform: rotate(360deg);
+    /* End spinning at 360 degrees (full circle) */
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .todo-wrapper {
